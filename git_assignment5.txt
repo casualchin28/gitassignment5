@@ -1,0 +1,47 @@
+38  mkdir gitassignment5
+   39  ls
+   40  cd gitassignment5/
+   41  ls
+   42  git init
+   43  touch master.txt
+   44  ls
+   45  git add .
+   46  git commit -m "master"
+   47  ls
+   48  git branch
+   49  git branch test
+   50  git branch f1
+   51  git branch f2
+   52  git checkout f1
+   53  touch f1.txt
+   54  ls
+   55  git add .
+   56  git commit -m "f1"
+   57  git checkout f2
+   58  ls
+   59  touch f2.txt
+   60  ls
+   61  git add .
+   62  git commit -m "f2"
+   63  git checkout test
+   64  ls
+   65  git merge f1
+   66  git merge f2
+   67  ls
+   68  git checkout master
+   69  ls
+   70  git merge test
+   71  ls
+   72  git checkout -b hotfix
+   73  ;s
+   74  ls
+   75  touch urgent.txt
+   76  ls
+   77  git add urgent.txt 
+   78  git commit -m "urgent"
+   79  ls
+   80  git branch
+   81  git checkout master
+   82  ls
+   83  git merge hotfix
+   84  ls
